@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;700&display=swap');
+
+header {
+    background: linear-gradient(45deg, #eccfcf, #fb2f14);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Press Start 2P', cursive;
+}
+
+header h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+body {
+    background-image: url('../imagenes/img1.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to bottom, #fdf6e3, #fceabb);
+    color: #333;
+}
+
+h6 {
+    margin-top: 10px;
+    color: #ca453b;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;   
+}
+
+.types_images{
+    width: 45%;
+    height: 20%;
+    margin-right: 5px;
+}
+
+.card{
+    height: 350px;
+    padding: 10px;
+    border: 2px solid #ffcb05;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.Pkm_gif {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 auto 10px auto;
+    image-rendering: pixelated;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  .Pkm_gif:hover {
+    transform: rotate(5deg) scale(1.1);
+}
+
+#pokemonSelect {
+    background-color: #f7f7f794;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+}
+#pokemonSelect:hover {
+    border-color: #000000;
+}
+
